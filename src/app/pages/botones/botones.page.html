@@ -1,0 +1,65 @@
+<ion-header no-border>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+    </ion-buttons>
+    
+    <ion-title>botones</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button color="primary">
+        <ion-icon name="heart"></ion-icon>
+      </ion-button>
+      <ion-button color="primary">
+        <ion-icon name="star"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!-- botones normales -->
+  <ion-button size="small" 
+              expand="full">
+              Small
+  </ion-button>
+  <ion-button size="default" 
+              expand="block">
+              Default
+  </ion-button>
+  <ion-button size="large" 
+              expand="full">
+              Large
+  </ion-button>
+
+  <!-- Anchor -->
+  <ion-button expand="full" 
+              color="secondary" 
+              routerLink="/alert"
+              class ="top-20">
+              Anchor
+  </ion-button>
+
+  <!-- ion-row + ion-col -->
+  <ion-row>
+    <ion-col>
+        <ion-button expand="full" 
+                    color="secondary" 
+                    routerLink="/alert"
+                    class ="top-20">
+                    Anchor
+        </ion-button>
+    </ion-col>
+    <ion-col>
+        <ion-button expand="full" 
+                    color="secondary" 
+                    routerLink="/alert"
+                    class ="top-20">
+                    Anchor
+</ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
